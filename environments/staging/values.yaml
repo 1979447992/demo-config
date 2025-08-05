@@ -4,7 +4,7 @@ image:
   tag: main
 
 service:
-  type: LoadBalancer
+  type: NodePort
   port: 8081  # 修改为 8081
 
 env:
