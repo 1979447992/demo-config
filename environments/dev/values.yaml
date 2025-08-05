@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  tag: main
+
+service:
+  type: LoadBalancer
+
+env:
+  NODE_ENV: development
+  APP_VERSION: "1.0.0-dev"
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 50m
+    memory: 64Mi
