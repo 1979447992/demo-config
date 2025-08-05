@@ -5,6 +5,7 @@ image:
 
 service:
   type: LoadBalancer
+  port: 8082  # 修改为 8082
 
 env:
   NODE_ENV: production

@@ -5,6 +5,7 @@ image:
 
 service:
   type: LoadBalancer
+  port: 8081  # 修改为 8081
 
 env:
   NODE_ENV: staging
